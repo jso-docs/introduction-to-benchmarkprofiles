@@ -1,7 +1,3 @@
 # This file was generated, do not modify it. # hide
-using BenchmarkProfiles, Random, Plots
-
-Random.seed!(0)
-
-T = 10 * rand(25, 3)
+T[2:20,1] .= Inf
 performance_profile(PlotsBackend(), T, ["Solver 1", "Solver 2", "Solver 3"])
