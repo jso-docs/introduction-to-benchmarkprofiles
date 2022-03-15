@@ -1,3 +1,0 @@
-ArgumentError: Package BenchmarkProfiles not found in current path:
-- Run `import Pkg; Pkg.add("BenchmarkProfiles")` to install the BenchmarkProfiles package.
-
