@@ -1,7 +1,7 @@
-@def title = "Template"
+@def title = "Introduction to BenchmarkProfiles"
 @def showall = true
-@def tags = ["template", "fix-me"]
+@def tags = ["benchmarking"]
 
-\preamble{AUTHORS}
+\preamble{Abel Soares Siqueira and Dominique Orban}
 
 \literate{/index.jl}
